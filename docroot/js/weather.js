@@ -32,6 +32,7 @@ function setVariables(data) {
     'location': data['name'],
     'description': data['weather'][0].description,
     'temperature': data['main'].temp,
+    'temperature_round': Math.round(data['main'].temp),
     'humidity': data['main'].humidity,
     'wind_speed': data['wind'].speed
   };
@@ -42,8 +43,7 @@ function setVariables(data) {
     $('.' + key).text(val);
   }
 
-console.log(icon);
-  var iconSrc = ('/img/' + icon + '.png');
+  var iconSrc = ('img/' + icon + '.png');
   $('.icon').attr('src', iconSrc);
 
   var d = new Date();

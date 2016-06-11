@@ -2,10 +2,18 @@
     table
             */
 body {
-  font-family: tahoma, verdana, sans-serif;
+  font-family: lato, tahoma, verdana, sans-serif;
 
   max-width: 480px;
   margin: 40px auto;
+  text-align: center;
+}
+
+.temp {
+  font-size: 32px;
+}
+.temp img {
+  margin-bottom: -12px;
 }
 
 
@@ -15,6 +23,8 @@ body {
 table {
   border-collapse: collapse;
   font-size: 14px;
+  margin: 1.2em auto;
+  text-align: left;
 }
 table tr {
   border: 1px solid #ddd;

@@ -14,7 +14,7 @@ https://delanomaloney.com/2013/07/10/how-to-set-up-virtual-hosts-using-xampp/
 
 ### Hosts file
 
-C:/Windows/System32/drivers/etc/httpd-vhosts.conf
+C:/Windows/System32/drivers/etc/hosts
 
 add to the file
 
@@ -23,7 +23,7 @@ add to the file
 
 ### Virtualhost
 
-D:/xampp/apache/conf/extra/hosts
+D:/xampp/apache/conf/extra/httpd-vhosts.conf
 
 add to the bottom of the file
 
@@ -54,3 +54,4 @@ add to the bottom of the file
     14:30-15:30
     17:00-17:45
     18:00-19:15
+    19:30-
