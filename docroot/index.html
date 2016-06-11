@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="/js/jquery-3.0.0.min.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/weather.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h1 id="app_title">Weather App</h1>
+
+    <div class="weather_data">
+      <h2>Weather for <span class="location"></span></h2>
+      <p><img src="" class="icon" width="50" height="50" /></p>
+      <p><span class="description">description</span></p>
+
+      <table>
+        <tr>
+          <td>Temperature</td>
+          <td class="temperature">t</td>
+          <td>&deg;C</td>
+        </tr>
+        <tr>
+          <td>Humidity</td>
+          <td class="humidity">h</td>
+          <td>%</td>
+        </tr>
+        <tr>
+          <td>Wind Speed</td>
+          <td class="wind_speed">w</td>
+          <td>m/s</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="footer">
+      <p>This app uses data from <a href="http://openweathermap.org/">openweathermap.org</a>.</p>
+      <p>Created by Kathryn Hartog.</p>
+    </div>
+
+  </body>
+</html>

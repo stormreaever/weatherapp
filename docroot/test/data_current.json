@@ -1,0 +1,44 @@
+{
+  "coord":{
+    "lon":-79.42,
+    "lat":43.7
+  },
+  "weather":[
+    {
+      "id":800,
+      "main":"Clear",
+      "description":"clear sky",
+      "icon":"01d"
+    }
+  ],
+  "base":"cmc stations",
+  "main":{
+    "temp":30.63,
+    "pressure":1006,
+    "humidity":42,
+    "temp_min":29.44,
+    "temp_max":31.5
+  },
+  "wind":{
+    "speed":6.92,
+    "deg":294.501
+  },
+  "rain":{
+
+  },
+  "clouds":{
+    "all":0
+  },
+  "dt":1465681025,
+  "sys":{
+    "type":3,
+    "id":1446992213,
+    "message":0.0088,
+    "country":"CA",
+    "sunrise":1465637727,
+    "sunset":1465693202
+  },
+  "id":6167865,
+  "name":"Toronto",
+  "cod":200
+}

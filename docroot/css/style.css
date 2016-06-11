@@ -1,0 +1,35 @@
+/*
+    table
+            */
+body {
+  font-family: tahoma, verdana, sans-serif;
+
+  max-width: 480px;
+  margin: 40px auto;
+}
+
+
+/*
+    table
+            */
+table {
+  border-collapse: collapse;
+  font-size: 14px;
+}
+table tr {
+  border: 1px solid #ddd;
+  border-width: 1px 0;
+}
+table td {
+  padding: 4px 16px;
+}
+
+
+/*
+    footer
+            */
+.footer {
+  margin-top: 4em;
+  font-size: 0.667em;
+  color: #999;
+}
