@@ -1,12 +1,10 @@
-## API Credentials
+# App
 
-http://openweathermap.org/
+This is a simple web app that displays the current weather in Toronto. 
 
-    user: stormreaever
-    email: stormreaever@gmail.com
-    password: todayheapartmechanism2
+Built with the openweathermap API.
 
-    API key: 6f1054c3f9c834efaa1dc9c635c780e3
+Go to http://openweathermap.org/ to get an API key.
 
 ## Domain Setup
 
